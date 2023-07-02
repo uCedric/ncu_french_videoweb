@@ -5,5 +5,4 @@
 - Express.js：後端語言
 - Nginx : proxy server
 - React.js：前端語言
-- Redis : caching
-- RabbitMQ : message queue
+- Redis : caching、message queue
