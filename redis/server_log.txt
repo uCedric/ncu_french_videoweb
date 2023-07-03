@@ -1,0 +1,107 @@
+[14944] 01 Jul 15:03:34.206 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[14944] 01 Jul 15:03:34.209 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=14944, just started
+[14944] 01 Jul 15:03:34.209 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 14944
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[14944] 01 Jul 15:03:34.214 # Server initialized
+[14944] 01 Jul 15:03:34.215 * Ready to accept connections
+[2824] 01 Jul 15:38:51.341 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[2824] 01 Jul 15:38:51.342 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=2824, just started
+[2824] 01 Jul 15:38:51.343 # Configuration loaded
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 5.0.14.1 (ec77f72d/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 2824
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+[2824] 01 Jul 15:38:51.346 # Server initialized
+[2824] 01 Jul 15:38:51.346 * Ready to accept connections
+[2824] 01 Jul 15:39:22.706 # User requested shutdown...
+[2824] 01 Jul 15:39:22.708 * Saving the final RDB snapshot before exiting.
+[2824] 01 Jul 15:39:22.725 * DB saved on disk
+[2824] 01 Jul 15:39:22.726 # Redis is now ready to exit, bye bye...
+[14944] 02 Jul 11:48:47.945 * 1 changes in 900 seconds. Saving...
+[14944] 02 Jul 11:48:47.965 * Background saving started by pid 6184
+[14944] 02 Jul 11:48:48.182 # fork operation complete
+[14944] 02 Jul 11:48:48.203 * Background saving terminated with success
+[14944] 02 Jul 11:52:40.285 * DB saved on disk
+[14944] 02 Jul 11:54:17.877 * DB saved on disk
+[14944] 02 Jul 12:05:52.072 * 10 changes in 300 seconds. Saving...
+[14944] 02 Jul 12:05:52.097 * Background saving started by pid 20144
+[14944] 02 Jul 12:05:52.308 # fork operation complete
+[14944] 02 Jul 12:05:52.328 * Background saving terminated with success
+[14944] 02 Jul 12:20:53.047 * 1 changes in 900 seconds. Saving...
+[14944] 02 Jul 12:20:53.074 * Background saving started by pid 23012
+[14944] 02 Jul 12:20:53.297 # fork operation complete
+[14944] 02 Jul 12:20:53.313 * Background saving terminated with success
+[14944] 02 Jul 12:29:43.872 * 10 changes in 300 seconds. Saving...
+[14944] 02 Jul 12:29:43.892 * Background saving started by pid 2112
+[14944] 02 Jul 12:29:44.100 # fork operation complete
+[14944] 02 Jul 12:29:44.120 * Background saving terminated with success
+[14944] 02 Jul 12:34:45.008 * 10 changes in 300 seconds. Saving...
+[14944] 02 Jul 12:34:45.032 * Background saving started by pid 22632
+[14944] 02 Jul 12:34:45.251 # fork operation complete
+[14944] 02 Jul 12:34:45.272 * Background saving terminated with success
+[14944] 02 Jul 12:53:04.990 * 1 changes in 900 seconds. Saving...
+[14944] 02 Jul 12:53:05.012 * Background saving started by pid 22436
+[14944] 02 Jul 12:53:05.224 # fork operation complete
+[14944] 02 Jul 12:53:05.244 * Background saving terminated with success
+[14944] 02 Jul 13:08:06.105 * 1 changes in 900 seconds. Saving...
+[14944] 02 Jul 13:08:06.130 * Background saving started by pid 25228
+[14944] 02 Jul 13:08:06.345 # fork operation complete
+[14944] 02 Jul 13:08:06.365 * Background saving terminated with success
+[14944] 03 Jul 19:55:02.335 * 1 changes in 900 seconds. Saving...
+[14944] 03 Jul 19:55:02.382 * Background saving started by pid 27212
+[14944] 03 Jul 19:55:02.485 # fork operation complete
+[14944] 03 Jul 19:55:02.509 * Background saving terminated with success
+[14944] 03 Jul 20:18:30.643 * 1 changes in 900 seconds. Saving...
+[14944] 03 Jul 20:18:30.667 * Background saving started by pid 27748
+[14944] 03 Jul 20:18:30.878 # fork operation complete
+[14944] 03 Jul 20:18:30.896 * Background saving terminated with success
+[14944] 03 Jul 20:33:31.023 * 1 changes in 900 seconds. Saving...
+[14944] 03 Jul 20:33:31.046 * Background saving started by pid 9040
+[14944] 03 Jul 20:33:31.148 # fork operation complete
+[14944] 03 Jul 20:33:31.158 * Background saving terminated with success
+[14944] 03 Jul 20:48:32.101 * 1 changes in 900 seconds. Saving...
+[14944] 03 Jul 20:48:32.126 * Background saving started by pid 20644
+[14944] 03 Jul 20:48:32.227 # fork operation complete
+[14944] 03 Jul 20:48:32.237 * Background saving terminated with success
+[14944] 03 Jul 20:53:33.104 * 10 changes in 300 seconds. Saving...
+[14944] 03 Jul 20:53:33.127 * Background saving started by pid 23936
+[14944] 03 Jul 20:53:33.229 # fork operation complete
+[14944] 03 Jul 20:53:33.245 * Background saving terminated with success
+[14944] 03 Jul 20:55:16.993 * DB saved on disk
+[14944] 03 Jul 21:00:34.482 * 10 changes in 300 seconds. Saving...
+[14944] 03 Jul 21:00:34.500 * Background saving started by pid 27020
+[14944] 03 Jul 21:00:34.605 # fork operation complete
+[14944] 03 Jul 21:00:34.623 * Background saving terminated with success
+[14944] 03 Jul 21:15:35.017 * 1 changes in 900 seconds. Saving...
+[14944] 03 Jul 21:15:35.033 * Background saving started by pid 22964

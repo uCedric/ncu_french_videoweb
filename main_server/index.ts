@@ -5,6 +5,7 @@ import cookieParser from "cookie-parser"
 import bodyParser from "body-parser"
 import cors from "cors"
 import mongoose, { mongo } from "mongoose"
+import redis from "redis"
 
 import router from "./router/index";
 

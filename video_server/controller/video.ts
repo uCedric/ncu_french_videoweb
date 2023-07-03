@@ -1,14 +1,18 @@
 import express from 'express';
+import { redisConnection } from '../model/redis';
+import redis from "redis";
 
 import {createVideo,getVideoById,getVideos,updateVideoById} from '../model/video';
 
 export const user_get_all_Video =async (req: express.Request, res: express.Response) => {
     try{
-        const result = await getVideos();
-        if(!result){
+        const data = await getVideos();
+        if(!data){
             return res.status(400).send({message:"No videos found"});
-        }
-        return res.status(200).send({message:"Videos fetched successfully",result});
+        } 
+        await redisConnection(Object.entries(data));
+        //client.setEx("videos",3600,JSON.stringify(result));
+        return res.status(200).send({message:"Videos fetched successfully",data});
     }catch{
         return res.status(400).send({message:"Bad Request"});
     }
