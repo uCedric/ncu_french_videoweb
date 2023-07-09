@@ -18,7 +18,7 @@ const isAuthentication = (req, res, next) => __awaiter(void 0, void 0, void 0, f
     var _a;
     try {
         const SECRET_KEY = "fr_videoweb";
-        const token = (_a = req.header('auth')) === null || _a === void 0 ? void 0 : _a.toString().split(' ')[1];
+        const token = (_a = req.header('Authorization')) === null || _a === void 0 ? void 0 : _a.toString().split(' ')[1];
         if (!token) {
             return res.status(401).json("token not found");
         }

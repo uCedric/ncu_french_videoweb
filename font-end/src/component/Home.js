@@ -1,16 +1,21 @@
 import { useState } from 'react';
+import axios from 'axios';
+import {  useNavigate } from 'react-router-dom';
 
 import "./Home.css"
 
 const Home = ()=>{
-    const [username, setUsername] = useState('');
+    const navigate = useNavigate();
+    const [email, setUseremail] = useState('');
     const [password, setPassword] = useState('');
     const [isRegister, setIsRegister] = useState(true);
-    const handleLogin = () => {
-        if (username == 'admin' && password == 'password') {
-        alert('登入成功');
-        } else {
-        alert('登入失敗');
+    
+    const handleLogin =async () => {
+        const result = await axios.post('http://localhost:8081/auth/login',{email:email,password:password});
+        console.log(result.data);
+        axios.defaults.headers.common['Authorization'] = `Bearer ${result.data}`;
+        if(result.status == "200"){
+            navigate('/video');
         }
     };
 
@@ -26,8 +31,8 @@ const Home = ()=>{
                         <label>Email:</label>
                         <input
                             type="text"
-                            value={username}
-                            onChange={(e) => setUsername(e.target.value)}
+                            value={email}
+                            onChange={(e) => setUseremail(e.target.value)}
                         />
                     </div>
                     <div className='p1'>

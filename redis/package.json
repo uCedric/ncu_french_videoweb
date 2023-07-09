@@ -1,0 +1,27 @@
+{
+  "name": "redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "start:ts": "tsc -w",
+    "start:js": "nodemon dist/index.js",
+    "start":"concurrently npm:start:*"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "redis": "^4.6.7",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.3",
+    "nodeman": "^1.1.2",
+    "typescript": "^5.1.6"
+  }
+}

@@ -58,6 +58,7 @@ export const login = async (req: express.Request, res: express.Response) => {
         //建立token
         const SECRET_KEY="fr_videoweb"
         const token = jwt.sign({email:email},SECRET_KEY,{ expiresIn: '1 day' });
+        
         return res.status(200).json(token).end();
 
     }catch{

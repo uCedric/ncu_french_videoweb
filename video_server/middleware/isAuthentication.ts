@@ -5,7 +5,7 @@ import {getUserByEmail} from "../model/user";
 export const isAuthentication =async (req: express.Request, res: express.Response, next: express.NextFunction) => {
     try{
         const SECRET_KEY="fr_videoweb";
-        const token = req.header('auth')?.toString().split(' ')[1];
+        const token = req.header('Authorization')?.toString().split(' ')[1];
 
         if(!token){
             return res.status(401).json("token not found");

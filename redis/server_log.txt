@@ -105,3 +105,21 @@
 [14944] 03 Jul 21:00:34.623 * Background saving terminated with success
 [14944] 03 Jul 21:15:35.017 * 1 changes in 900 seconds. Saving...
 [14944] 03 Jul 21:15:35.033 * Background saving started by pid 22964
+[14944] 03 Jul 21:15:35.141 # fork operation complete
+[14944] 03 Jul 21:15:35.151 * Background saving terminated with success
+[14944] 04 Jul 15:58:47.920 * 1 changes in 900 seconds. Saving...
+[14944] 04 Jul 15:58:47.958 * Background saving started by pid 4500
+[14944] 04 Jul 15:58:48.169 # fork operation complete
+[14944] 04 Jul 15:58:48.186 * Background saving terminated with success
+[5044] 04 Jul 16:21:56.032 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5044] 04 Jul 16:21:56.032 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5044, just started
+[5044] 04 Jul 16:21:56.032 # Configuration loaded
+[5044] 04 Jul 16:21:56.043 # Could not create server TCP listening socket 172.20.10.2:6379: bind: 存放控制區塊位址無效。
+[5076] 04 Jul 16:32:37.690 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[5076] 04 Jul 16:32:37.690 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=5076, just started
+[5076] 04 Jul 16:32:37.690 # Configuration loaded
+[5076] 04 Jul 16:32:37.706 # Could not create server TCP listening socket 172.20.10.2:6379: bind: 存放控制區塊位址無效。
+[18788] 04 Jul 17:19:03.744 # oO0OoO0OoO0Oo Redis is starting oO0OoO0OoO0Oo
+[18788] 04 Jul 17:19:03.745 # Redis version=5.0.14.1, bits=64, commit=ec77f72d, modified=0, pid=18788, just started
+[18788] 04 Jul 17:19:03.745 # Configuration loaded
+[18788] 04 Jul 17:19:03.748 # Could not create server TCP listening socket 172.20.10.2:6379: bind: The operation completed successfully.

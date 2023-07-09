@@ -10,7 +10,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.update_video = exports.add_new_video = exports.user_get_all_Video = void 0;
-const redis_1 = require("../model/redis");
 const video_1 = require("../model/video");
 const user_get_all_Video = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -18,9 +17,9 @@ const user_get_all_Video = (req, res) => __awaiter(void 0, void 0, void 0, funct
         if (!result) {
             return res.status(400).send({ message: "No videos found" });
         }
-        const client = (0, redis_1.redisConnection)();
-        client.setEx("videos", 3600, JSON.stringify(result));
-        return res.status(200).send({ message: "Videos fetched successfully", result });
+        /*const client = redisConnection();
+        client.setEx("videos",3600,JSON.stringify(result));*/
+        return res.status(200).json(result);
     }
     catch (_a) {
         return res.status(400).send({ message: "Bad Request" });
