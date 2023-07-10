@@ -329,3 +329,6 @@
 127.0.0.1 - - [04/Jul/2023:22:35:47 +0800] "GET /video_s/video/all HTTP/1.1" 200 986 "-" "PostmanRuntime/7.32.3"
 127.0.0.1 - - [04/Jul/2023:22:36:09 +0800] "GET /video_s/video/all HTTP/1.1" 200 986 "-" "PostmanRuntime/7.32.3"
 127.0.0.1 - - [04/Jul/2023:22:37:59 +0800] "GET /video_s/video/all HTTP/1.1" 200 986 "-" "PostmanRuntime/7.32.3"
+127.0.0.1 - - [06/Jul/2023:18:41:53 +0800] "GET /video_s/video/all HTTP/1.1" 499 0 "-" "PostmanRuntime/7.32.3"
+127.0.0.1 - - [08/Jul/2023:18:05:17 +0800] "POST /main_s/auth/login HTTP/1.1" 502 157 "-" "PostmanRuntime/7.32.3"
+127.0.0.1 - - [08/Jul/2023:18:08:28 +0800] "POST /video_s/video HTTP/1.1" 400 40 "-" "PostmanRuntime/7.32.3"

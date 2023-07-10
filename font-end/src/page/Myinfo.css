@@ -1,0 +1,22 @@
+.myinfo-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.myinfo-nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.myinfo-area{
+    width:1000px;
+    height: 500px;
+    margin-top:85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3e1da;
+}

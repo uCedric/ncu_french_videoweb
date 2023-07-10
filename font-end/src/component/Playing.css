@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .previous-page{
@@ -11,8 +11,8 @@
     height: 30px;
     display: flex;
     align-items: center;
-    background-color: #afde40;
-    border:3px solid #afde40;
+    background-color: #e3e1da;
+    border:3px solid #e3e1da;
     border-radius:10px;
 }
 .previous-page:hover{
@@ -62,5 +62,5 @@
 .part2{
     width: 425px;
     margin-top: 45px;
-    
+    margin-left: 20px;
 }

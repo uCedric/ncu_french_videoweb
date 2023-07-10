@@ -15,7 +15,7 @@ const Home = ()=>{
         console.log(result.data);
         axios.defaults.headers.common['Authorization'] = `Bearer ${result.data}`;
         if(result.status == "200"){
-            navigate('/video');
+            navigate('/video',{state:{email:email}});
         }
     };
 
