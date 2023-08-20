@@ -3,6 +3,6 @@
 
 - MongoDB：資料庫建置
 - Express.js：後端語言
-- Nginx : proxy server
+- Nginx : load balancer
 - React.js：前端語言
-- Redis : caching、message queue
+- Redis : caching
